@@ -24,7 +24,7 @@ employee: It is a user defined struct that represents an individual's informatio
 
 'designation': A field type of String to store the employee's designation. 'department': A field type of String to store the employee's department.
 
-'age': A field type of UInt to store the person's age.
+'age': A field type of UInt to store the employees age.
 
 'account': A field type of Address to store the person's blockchain address. This is used to uniquely identify individuals in the 'people' mapping.
 
