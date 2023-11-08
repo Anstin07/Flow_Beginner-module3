@@ -1,4 +1,4 @@
-pub contract MyContract {
+pub contract Authentication {
 
     pub var people: {Address: employee}
     // Define a struct
@@ -12,8 +12,8 @@ pub contract MyContract {
     // You have to pass in 5 arguments when creating this Struct.
         init(_name:String,_designation: String,_department:String, _age:UInt,_account:Address) {
             self.name=_name
-            self.designation=_fname
-            self.department=_mname
+            self.designation=_designation
+            self.department=_department
             self.age=_age
             self.account=_account
         }
