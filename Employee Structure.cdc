@@ -19,9 +19,9 @@ pub contract Authentication {
         }
     }
 
-    pub fun addemployee( name:String,designation:String,department:String,age:UInt,account:Address){
-        let newemployee=employee(_name:name,_designation:designation,_department:department,_age:age,_account:account)
-        self.people[account]=newemployee
+    pub fun addemployees( name:String,designation:String,department:String,age:UInt,account:Address){
+        let newemployees =employee(_name:name,_designation:designation,_department:department,_age:age,_account:account)
+        self.people[account]=newemployees
     }
 
   // The init() function is required if the contract contains any fields.
