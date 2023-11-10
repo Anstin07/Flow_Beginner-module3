@@ -18,7 +18,7 @@ pub contract Authentication {
     }
 
     pub fun addEmployees( employeeid:String,name:String ,age:UInt,account:Address){
-        let newemployees =employee(_employeeid:employeeid, _name:name,_department:department,_age:age,_account:account)
+        let newemployees =employee(_employeeid:employeeid, _name:name,_age:age,_account:account)
         self.peoples[account]=newEmployees
     }
 
